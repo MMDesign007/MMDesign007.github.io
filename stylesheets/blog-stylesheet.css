@@ -18,8 +18,24 @@ p {
 
 }
 
-#heading{
+#heading {
   text-align: left;
+}
+
+#hash_example {
+  background: black;
+  width: 300px;
+  height: 175px;
+  color: white;
+  padding: 15px;
+}
+
+#array_example {
+  background: black;
+  width: 300px;
+  height: 50px;
+  color: white;
+  padding: 15px;
 }
 
 div a:hover{
