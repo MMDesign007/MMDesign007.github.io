@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link type=”text/css” rel="stylesheet" href="../stylesheets/blog-stylesheet.css"/>
+<title>Miriams Blog</title>
+</head>
+
+<body>
+<div id="heading">
+<h1>Miriam Moore</h1>
+
+<h1>Ruby Classes</h1>
+
+<h3>November 09, 2014</h3>
+
+<p>Classes in Ruby are objects. When a class in Ruby is created, an initialized method is defined as well, and we create instances of the class there. Classes allows us to organize our code, so we can use instances of classes in different methods within our class.
+</p>
+
+<p>For example:
+If we have a class called Menu, we can assign the menu instance variables. Instance variables are assigned by using @ followed by the name of the variable.  Instance variables are attached to the instance of the class. So in our example below: Appetizer, Entree, Dessert, and Drinks are all instances of the class Menu. Our initialize method accepts four arguments, so whenever our program creates a menu, each instance of menu will have an appetizer, entree, dessert, or drink. We can create an instance of our class outside of our class by writing .new after our class name.</p>
+
+<div id="array_example">
+  <code>
+  class Menu<br>
+  def initialize(appetizer, entree, dessert, drinks)<br>
+    @appetizer = appetizer<br>
+    @entree = entree<br>
+    @dessert = dessert<br>
+    @drinks = drinks<br>
+  end<br>
+end<br>
+
+miriams_menu = Menu.new("bread", "chicken", "cake", "tea")<br>
+someones_menu = Menu.new("salad", "steak", "tiramisu", "wine")<br>
+</code>
+<code>
+</code>
+</div>
+
+
+
+</body>
+</html>
