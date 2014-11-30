@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ruby BASICS</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+</head>
+
+<div <!DOCTYPE html>
+<html>
+<head>
+<title>Ruby BASICS</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+</head>
+
+<div style="padding:0 100px">
+<body>
+<h1>Mathimatical Operators</h1>
+
+<table class="table table-striped">
+  <tr>
+   <th>Operator</th>
+   <th>Description</th>
+   <th>Example</th>
+  </tr>
+  <tr>
+    <td class="col-md-1">+</td>
+    <td class="col-md-4">Addition - Adds values on either side of the operator</td>
+    <td class="col-md-2">a + b</td>
+  </tr>
+  <tr>
+    <td class="col-md-1">-</td>
+    <td class="col-md-4">Subtraction - Subtracts right hand value from left hand value and returns subtracted value.</td>
+    <td class="col-md-2">a - b</td>
+  </tr>
+  <tr>
+    <td class="col-md-1">*</td>
+    <td class="col-md-4">Multiplication - Multiplies values</td>
+    <td class="col-md-2">a * b</td>
+  </tr>
+  <tr>
+    <td class="col-md-1">/</td>
+    <td class="col-md-4">Division - Divides left hand value from right hand value.</td>
+    <td class="col-md-2">a / b</td>
+  </tr>
+    <tr>
+    <td class="col-md-1">%</td>
+    <td class="col-md-4">Modulus - Divides left hand value by right hand value and returns the remainder as a value.</td>
+    <td class="col-md-2">a % b</td>
+  </tr>
+  <tr>
+    <td class="col-md-1">**</td>
+    <td class="col-md-4">Exponent - Raises the power of the value</td>
+    <td class="col-md-2">a**b</td>
+  </tr>
+</table>
+
+<h1>Order of Math Operations</h1>
+<p>The order of operations is:<br>
+Parathesis<br>
+Exponents<br>
+Multiplication<br>
+Division<br>
+Subtraction<br>
+Hint: Remember the order of operations by this sentence: "Please Excuse My Dear Aunt Sally."
+</p>
+
+
+
+
+<h1>Ruby Comparison Operators</h1>
+
+<table class="table table-striped">
+  <tr>
+   <th>Operator</th>
+   <th>Description</th>
+   <th>Example<br>
+     a = 2<br>
+     b = 4<br>
+   </th>
+  </tr>
+  <tr>
+    <td class="col-md-1">==</td>
+    <td class="col-md-4">Compares value on each side and checks for a true statement</td>
+    <td class="col-md-2">(a == b) is false<br>
+        (a == a) is true<br>
+    </td>
+  </tr>
+  <tr>
+    <td class="col-md-1">!=</td>
+    <td class="col-md-4">Compares value on each side and checks for a false statement</td>
+    <td class="col-md-2">(a != b) is true<br>
+        (a != a) is false<br>
+    </td>
+  </tr>
+  <tr>
+    <td class="col-md-1">></td>
+    <td class="col-md-4">Greater than</td>
+    <td class="col-md-2">(a > b) is false<br>
+        (b > a) is true<br>
+    </td>
+  </tr>
+  <tr>
+    <td class="col-md-1"><</td>
+    <td class="col-md-4">Less than</td>
+    <td class="col-md-2">(a > b) is true<br>
+        (b > a) is false<br>
+    </td>
+  </tr>
+    <tr>
+    <td class="col-md-1">>=</td>
+    <td class="col-md-4">Greater than or equal</td>
+    <td class="col-md-2">(a >= b) is false<br>
+        (b >= a) is true<br>
+    </td>
+  </tr>
+  <tr>
+    <td class="col-md-1"><=</td>
+    <td class="col-md-4">Less than or equal</td>
+    <td class="col-md-2">(a > b) is true<br>
+        (b > a) is false<br>
+  </tr>
+  <tr>
+    <td class="col-md-1"><=></td>
+    <td class="col-md-4">Combining all comparison operators and returns an equivalent number<br>
+      returns 0 for == (true)<br>
+      returns 1 for > (true)<br>
+      returns -1 for < (false)<br>
+    </td>
+    <td class="col-md-2">(a <=> b) is -1 because the return value is false</td>
+  </tr>
+   <tr>
+    <td class="col-md-1">===</td>
+    <td class="col-md-4">Case Equality - Checks if left value is associated with right value. In example c, 42 is part of the integer class, so the expression is true.
+    In example d, the string "fourtytwo" is not part of the integer class, so the expression returns false. In example a, 3 is within the range of 1-5, so the expression is true.</td>
+    <td class="col-md-2">ex a: (1..5) === 3 - True <br>
+        ex b: (1..5) === 6 - False<br>
+        ex c: Integer === 42 - True<br>
+        ex d: Integer === "fortytwo" - False<br>
+        ex e: /ell/ === 'Hello' - True<br>
+        ex f: /ell/ === 'Foo' - False<br>
+    </td>
+  </tr>
+  <tr>
+    <td class="col-md-1">.eql?</td>
+    <td class="col-md-4">True if each value on opposite ends of the operator are equal</td>
+    <td class="col-md-2">a**b</td>
+  </tr>
+  <tr>
+    <td class="col-md-1">.equal?</td>
+    <td class="col-md-4">Exponent - Raises the power of the value</td>
+    <td class="col-md-2">a**b</td>
+  </tr>
+</table>
+
+
+
+<h1>Ruby Range Operators</h1>
+
+<table class="table table-striped">
+  <tr>
+   <th>Operator</th>
+   <th>Description</th>
+   <th>Example</th>
+  </tr>
+  <tr>
+    <td class="col-md-1">..</td>
+    <td class="col-md-4">Creates an <b>inclusive</b> range from a starting point to an ending point</td>
+    <td class="col-md-2">1..10 creates an inclusive range 1 to 10</td>
+  </tr>
+  <tr>
+    <td class="col-md-1">...</td>
+    <td class="col-md-4">Creates an <b>exclusive</b> range from a starting point to an ending point</td>
+    <td class="col-md-2">1..10 creates a range 1 to 9</td>
+  </tr>
+</table>
+
+
+
+<h1>Conditional Statements</h1>
+<h3>if, elsif, else Statement</h3>
+
+<code>
+number = 50<br>
+
+if number > 50<br>
+    puts "Your number is too big"<br>
+elsif number < 50<br>
+    puts "Your number is too small"<br>
+else<br>
+    puts "You picked the correct number!"<br>
+end<br>
+</code>
+
+
+<p>In this example the program goes through each condition and checks for a true statement. The program will stop once a condition is met, otherwise it will continue to loop.</p>
+
+
+
+<h1>Write your own Methods</h1>
+
+
+<code>
+def favorite_food(fav_one, fav_two)<br>
+  sentence = "Your favorite foods are #{fav_one} and #{fav_two}"<br>
+  puts sentence<br>
+end<br>
+
+favorite_food("apples", "oranges")
+</code>
+
+
+<p>In the example above favorite_food is a method that accepts two arguments (two favorite foods in this example).
+   The method prints a statement. We call the method and pass arguments after we define our method. "Sentence" is our local variable in this example,
+   it is holding our string that tells us our favorite foods.</p>
+
+
+<h1> pre-defined methods</h1>
+<p>We don't have to always create our own methods. Ruby has many pre-defined methods that do a lot of work for us.</p>
+<p>Resources<br>
+  Here are some resources to find pre-defined methods:
+  http://www.ruby-doc.org/
+</p>
+
+
+<h1>Classes</h1>
+
+<p>Classes in Ruby are objects. When a class in Ruby is created, an initialized method is defined as well, and we create instances of the class there. Classes allows us to organize our code, so we can use instances of classes in different methods within our class.
+</p>
+
+<p>For example:
+If we have a class called Menu, we can assign the menu instance variables. Instance variables are assigned by using @ followed by the name of the variable.  Instance variables are attached to the instance of the class. So in our example below: Appetizer, Entree, Dessert, and Drinks are all instances of the class Menu. Our initialize method accepts four arguments, so whenever our program creates a menu, each instance of menu will have an appetizer, entree, dessert, or drink. We can create an instance of our class outside of our class by writing .new after our class name.</p>
+
+
+  <code>
+  class Menu<br>
+  def initialize(appetizer, entree, dessert, drinks)<br>
+    @appetizer = appetizer<br>
+    @entree = entree<br>
+    @dessert = dessert<br>
+    @drinks = drinks<br>
+  end<br>
+end<br>
+
+miriams_menu = Menu.new("bread", "chicken", "cake", "tea")<br>
+someones_menu = Menu.new("salad", "steak", "tiramisu", "wine")<br>
+</code>
+
+
+
+<h1>Reserved Words</h1>
+Built in words in Ruby cannot be used for naming variables.
+
+<h1>Accessors</h1>
+An object's instance variables are its attributes, the things that distinguish it from other objects of the same class.
+It is important to be able to write and read these attributes; doing so requires methods called attribute accessors.
+
+    <code>
+        attr_accessor :var<br>
+        attr_reader :var<br>
+        attr_writer :var<br>
+    </code>
+
+
+<h1>IRB / Terminal</h1>
+Terminal: You can use your terminal to test ruby programs.<br>
+Test your file by typing:<br>
+ruby filename.rb<br>
+put a <i>puts, print</i> or <i>p</i> statement before the code you are executing to print output.
+
+IRB (Interactive Ruby):
+A popular testing resource to test fragment of Ruby code.
+To access IRB, type IRB in your terminal and paste code.
+
+</body>
+
+</html>
+<body>
+<h1>Mathimatical Operators</h1>
+
+<table class="table table-striped">
+  <tr>
+   <th>Operator</th>
+   <th>Description</th>
+   <th>Example</th>
+  </tr>
+  <tr>
+    <td class="col-md-1">+</td>
+    <td class="col-md-4">Addition - Adds values on either side of the operator</td>
+    <td class="col-md-2">a + b</td>
+  </tr>
+  <tr>
+    <td class="col-md-1">-</td>
+    <td class="col-md-4">Subtraction - Subtracts right hand value from left hand value and returns subtracted value.</td>
+    <td class="col-md-2">a - b</td>
+  </tr>
+  <tr>
+    <td class="col-md-1">*</td>
+    <td class="col-md-4">Multiplication - Multiplies values</td>
+    <td class="col-md-2">a * b</td>
+  </tr>
+  <tr>
+    <td class="col-md-1">/</td>
+    <td class="col-md-4">Division - Divides left hand value from right hand value.</td>
+    <td class="col-md-2">a / b</td>
+  </tr>
+    <tr>
+    <td class="col-md-1">%</td>
+    <td class="col-md-4">Modulus - Divides left hand value by right hand value and returns the remainder as a value.</td>
+    <td class="col-md-2">a % b</td>
+  </tr>
+  <tr>
+    <td class="col-md-1">**</td>
+    <td class="col-md-4">Exponent - Raises the power of the value</td>
+    <td class="col-md-2">a**b</td>
+  </tr>
+</table>
+
+<h1>Order of Math Operations</h1>
+<p>The order of operations is:<br>
+Parathesis<br>
+Exponents<br>
+Multiplication<br>
+Division<br>
+Subtraction<br>
+Hint: Remember the order of operations by this sentence: "Please Excuse My Dear Aunt Sally."
+</p>
+
+
+
+
+<h1>Ruby Comparison Operators</h1>
+
+<table class="table table-striped">
+  <tr>
+   <th>Operator</th>
+   <th>Description</th>
+   <th>Example<br>
+     a = 2<br>
+     b = 4<br>
+   </th>
+  </tr>
+  <tr>
+    <td class="col-md-1">==</td>
+    <td class="col-md-4">Compares value on each side and checks for a true statement</td>
+    <td class="col-md-2">(a == b) is false<br>
+        (a == a) is true<br>
+    </td>
+  </tr>
+  <tr>
+    <td class="col-md-1">!=</td>
+    <td class="col-md-4">Compares value on each side and checks for a false statement</td>
+    <td class="col-md-2">(a != b) is true<br>
+        (a != a) is false<br>
+    </td>
+  </tr>
+  <tr>
+    <td class="col-md-1">></td>
+    <td class="col-md-4">Greater than</td>
+    <td class="col-md-2">(a > b) is false<br>
+        (b > a) is true<br>
+    </td>
+  </tr>
+  <tr>
+    <td class="col-md-1"><</td>
+    <td class="col-md-4">Less than</td>
+    <td class="col-md-2">(a > b) is true<br>
+        (b > a) is false<br>
+    </td>
+  </tr>
+    <tr>
+    <td class="col-md-1">>=</td>
+    <td class="col-md-4">Greater than or equal</td>
+    <td class="col-md-2">(a >= b) is false<br>
+        (b >= a) is true<br>
+    </td>
+  </tr>
+  <tr>
+    <td class="col-md-1"><=</td>
+    <td class="col-md-4">Less than or equal</td>
+    <td class="col-md-2">(a > b) is true<br>
+        (b > a) is false<br>
+  </tr>
+  <tr>
+    <td class="col-md-1"><=></td>
+    <td class="col-md-4">Combining all comparison operators and returns an equivalent number<br>
+      returns 0 for == (true)<br>
+      returns 1 for > (true)<br>
+      returns -1 for < (false)<br>
+    </td>
+    <td class="col-md-2">(a <=> b) is -1 because the return value is false</td>
+  </tr>
+   <tr>
+    <td class="col-md-1">===</td>
+    <td class="col-md-4">Case Equality - Checks if left value is associated with right value. In example c, 42 is part of the integer class, so the expression is true.
+    In example d, the string "fourtytwo" is not part of the integer class, so the expression returns false. In example a, 3 is within the range of 1-5, so the expression is true.</td>
+    <td class="col-md-2">ex a: (1..5) === 3 - True <br>
+        ex b: (1..5) === 6 - False<br>
+        ex c: Integer === 42 - True<br>
+        ex d: Integer === "fortytwo" - False<br>
+        ex e: /ell/ === 'Hello' - True<br>
+        ex f: /ell/ === 'Foo' - False<br>
+    </td>
+  </tr>
+  <tr>
+    <td class="col-md-1">.eql?</td>
+    <td class="col-md-4">True if each value on opposite ends of the operator are equal</td>
+    <td class="col-md-2">a**b</td>
+  </tr>
+  <tr>
+    <td class="col-md-1">.equal?</td>
+    <td class="col-md-4">Exponent - Raises the power of the value</td>
+    <td class="col-md-2">a**b</td>
+  </tr>
+</table>
+
+
+
+<h1>Ruby Range Operators</h1>
+
+<table class="table table-striped">
+  <tr>
+   <th>Operator</th>
+   <th>Description</th>
+   <th>Example</th>
+  </tr>
+  <tr>
+    <td class="col-md-1">..</td>
+    <td class="col-md-4">Creates an <b>inclusive</b> range from a starting point to an ending point</td>
+    <td class="col-md-2">1..10 creates an inclusive range 1 to 10</td>
+  </tr>
+  <tr>
+    <td class="col-md-1">...</td>
+    <td class="col-md-4">Creates an <b>exclusive</b> range from a starting point to an ending point</td>
+    <td class="col-md-2">1..10 creates a range 1 to 9</td>
+  </tr>
+</table>
+
+
+
+<h1>Conditional Statements</h1>
+<h3>if, elsif, else Statement</h3>
+
+<code>
+number = 50<br>
+
+if number > 50<br>
+    puts "Your number is too big"<br>
+elsif number < 50<br>
+    puts "Your number is too small"<br>
+else<br>
+    puts "You picked the correct number!"<br>
+end<br>
+</code>
+
+
+<p>In this example the program goes through each condition and checks for a true statement. The program will stop once a condition is met, otherwise it will continue to loop.</p>
+
+
+
+<h1>Write your own Methods</h1>
+
+
+<code>
+def favorite_food(fav_one, fav_two)<br>
+  sentence = "Your favorite foods are #{fav_one} and #{fav_two}"<br>
+  puts sentence<br>
+end<br>
+
+favorite_food("apples", "oranges")
+</code>
+
+
+<p>In the example above favorite_food is a method that accepts two arguments (two favorite foods in this example).
+   The method prints a statement. We call the method and pass arguments after we define our method. "Sentence" is our local variable in this example,
+   it is holding our string that tells us our favorite foods.</p>
+
+
+<h1> pre-defined methods</h1>
+<p>We don't have to always create our own methods. Ruby has many pre-defined methods that do a lot of work for us.</p>
+<p>Resources<br>
+  Here are some resources to find pre-defined methods:
+  http://www.ruby-doc.org/
+</p>
+
+
+<h1>Classes</h1>
+
+<p>Classes in Ruby are objects. When a class in Ruby is created, an initialized method is defined as well, and we create instances of the class there. Classes allows us to organize our code, so we can use instances of classes in different methods within our class.
+</p>
+
+<p>For example:
+If we have a class called Menu, we can assign the menu instance variables. Instance variables are assigned by using @ followed by the name of the variable.  Instance variables are attached to the instance of the class. So in our example below: Appetizer, Entree, Dessert, and Drinks are all instances of the class Menu. Our initialize method accepts four arguments, so whenever our program creates a menu, each instance of menu will have an appetizer, entree, dessert, or drink. We can create an instance of our class outside of our class by writing .new after our class name.</p>
+
+
+  <code>
+  class Menu<br>
+  def initialize(appetizer, entree, dessert, drinks)<br>
+    @appetizer = appetizer<br>
+    @entree = entree<br>
+    @dessert = dessert<br>
+    @drinks = drinks<br>
+  end<br>
+end<br>
+
+miriams_menu = Menu.new("bread", "chicken", "cake", "tea")<br>
+someones_menu = Menu.new("salad", "steak", "tiramisu", "wine")<br>
+</code>
+
+
+
+<h1>Reserved Words</h1>
+Built in words in Ruby cannot be used for naming variables.
+
+<h1>Accessors</h1>
+An object's instance variables are its attributes, the things that distinguish it from other objects of the same class.
+It is important to be able to write and read these attributes; doing so requires methods called attribute accessors.
+
+    <code>
+        attr_accessor :var<br>
+        attr_reader :var<br>
+        attr_writer :var<br>
+    </code>
+
+
+<h1>IRB / Terminal</h1>
+Terminal: You can use your terminal to test ruby programs.<br>
+Test your file by typing:<br>
+ruby filename.rb<br>
+put a <i>puts, print</i> or <i>p</i> statement before the code you are executing to print output.
+
+IRB (Interactive Ruby):
+A popular testing resource to test fragment of Ruby code.
+To access IRB, type IRB in your terminal and paste code.
+
+</body>
+</div>
+</html>
