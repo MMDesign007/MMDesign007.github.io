@@ -1,0 +1,65 @@
+.social ul {
+  margin: 0;
+  padding:0px;
+}
+
+.navbar-inverse {
+//  padding-top: 500px;
+}
+
+.navbar-bottom p {
+  bottom: 0;
+}
+
+.container {
+  padding-bottom: 30px
+
+}
+
+
+
+
+//blog css
+.img_container {
+   width: 270px;
+   height: 100%;
+   vertical-align: top;
+   display: inline-block;
+   *display: inline;
+   zoom: 1;
+   overflow: hidden;
+   margin-bottom: 8px;
+}
+
+.main_post{
+background-image: url("/img/chicago.jpg");
+width:100%;
+overflow: hidden;
+}
+
+#post_contain {
+   height: 200px;
+   text-align: justify;
+   -ms-text-justify: distribute-all-lines;
+   text-justify: distribute-all-lines;
+   padding-left: 50px
+}
+.stretch {
+   width: 100%;
+   display: inline-block;
+   font-size: 0;
+   line-height: 0
+}
+
+.post_tag {
+font-size: 30px;
+padding: 20px;
+height: 100%;
+color: white;
+text-shadow: 2px 1px #000;
+}
+
+a:hover .post_tag{
+background: rgba(9, 9, 9, 0.6);
+}
+
